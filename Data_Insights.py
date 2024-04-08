@@ -11,7 +11,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import numpy as np
 
-df1 = pd.read_csv('/content/wtf.csv')
+df1 = pd.read_csv('/content/Database.csv')
 
 # Define a function to calculate 'COMP_PRICE' based on the conditions
 def calculate_comp_price(group):
